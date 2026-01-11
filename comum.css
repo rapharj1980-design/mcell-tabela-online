@@ -1,0 +1,15 @@
+* {text-align: center;
+background-color: rgb(237, 205, 162);}
+table ,
+th,
+td {border: 1px solid black;}
+.tabela-cheia {width: 100%;}
+tr:hover td {
+    background-color: #657b9c; /* Cor de destaque para a linha toda */
+    cursor: pointer;}
+    table {
+  margin-left: auto;
+  margin-right: auto;
+  /* Opcional: defina uma largura se a tabela for menor que 100% da página */
+  width: 80%; 
+}
